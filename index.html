@@ -1,348 +1,209 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
 <head>
-    <!-- ========== Meta Tags ========== -->
-    <meta charset="UTF-8">
-    <meta name="description" content="Evento -Event Html Template">
-    <meta name="keywords" content="Evento , Event , Html, Template">
-    <meta name="author" content="ColorLib">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <!-- ========== Title ========== -->
-    <title> Evento - Event Html Template</title>
-    <!-- ========== Favicon Ico ========== -->
-    <!--<link rel="icon" href="fav.ico">-->
-    <!-- ========== STYLESHEETS ========== -->
-    <!-- Bootstrap CSS -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Fonts Icon CSS -->
-    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
-    <link href="assets/css/et-line.css" rel="stylesheet">
-    <link href="assets/css/ionicons.min.css" rel="stylesheet">
-    <!-- Carousel CSS -->
-    <link href="assets/css/owl.carousel.min.css" rel="stylesheet">
-    <link href="assets/css/owl.theme.default.min.css" rel="stylesheet">
-    <!-- Animate CSS -->
-    <link rel="stylesheet" href="assets/css/animate.min.css">
-    <!-- Custom styles for this template -->
-    <link href="assets/css/main.css" rel="stylesheet">
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>16s rRNA analysis workshop</title>
+  <meta name="description" content="This tutorial covers workshop material for all three days" />
+  <meta name="generator" content="bookdown 0.14 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="16s rRNA analysis workshop" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="This tutorial covers workshop material for all three days" />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="16s rRNA analysis workshop" />
+  
+  <meta name="twitter:description" content="This tutorial covers workshop material for all three days" />
+  
+
+<meta name="author" content="Hena R. Ramay" />
+
+
+<meta name="date" content="2019-10-06" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+
+<link rel="next" href="day-one.html"/>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
 </head>
+
 <body>
-<div class="loader">
-    <div class="loader-outter"></div>
-    <div class="loader-inner"></div>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">16s rRNA Analysis Workshop</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a><ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#workshop-schedule"><i class="fa fa-check"></i><b>1.1</b> Workshop Schedule</a></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#important-links"><i class="fa fa-check"></i><b>1.2</b> Important links</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="day-one.html"><a href="day-one.html"><i class="fa fa-check"></i><b>2</b> Day One</a><ul>
+<li class="chapter" data-level="2.1" data-path="day-one.html"><a href="day-one.html#what-are-we-trying-to-achieve"><i class="fa fa-check"></i><b>2.1</b> What are we trying to achieve</a></li>
+<li class="chapter" data-level="2.2" data-path="day-one.html"><a href="day-one.html#basics-background"><i class="fa fa-check"></i><b>2.2</b> Basics &amp; Background</a></li>
+<li class="chapter" data-level="2.3" data-path="day-one.html"><a href="day-one.html#dada2-pipeline-v1.2"><i class="fa fa-check"></i><b>2.3</b> DADA2 pipeline (v1.2)</a><ul>
+<li class="chapter" data-level="2.3.1" data-path="day-one.html"><a href="day-one.html#data-for-the-tutorial"><i class="fa fa-check"></i><b>2.3.1</b> Data for the tutorial</a></li>
+<li class="chapter" data-level="2.3.2" data-path="day-one.html"><a href="day-one.html#getting-ready-load-packages-and-get-file-list"><i class="fa fa-check"></i><b>2.3.2</b> Getting ready ( load packages and get file list)</a></li>
+</ul></li>
+<li class="chapter" data-level="2.4" data-path="day-one.html"><a href="day-one.html#inspect-read-quality-profiles"><i class="fa fa-check"></i><b>2.4</b> Inspect read quality profiles</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="day-two.html"><a href="day-two.html"><i class="fa fa-check"></i><b>3</b> Day Two</a></li>
+<li class="chapter" data-level="4" data-path="day-three.html"><a href="day-three.html"><i class="fa fa-check"></i><b>4</b> Day Three</a></li>
+<li class="chapter" data-level="5" data-path="summary.html"><a href="summary.html"><i class="fa fa-check"></i><b>5</b> Summary</a></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">16s rRNA analysis workshop</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="header">
+<h1 class="title">16s rRNA analysis workshop</h1>
+<p class="author"><em>Hena R. Ramay</em></p>
+<p class="date"><em>2019-10-06</em></p>
 </div>
+<div id="introduction" class="section level1">
+<h1><span class="header-section-number">1</span> Introduction</h1>
+<p>Our intention is to develop workshop material as we go along. For each day of the workshop, the basic material will be uploaded and more details will be added based on your questions and problems we encounter. So pleae ask as many questions are you can to help us in making this workshop better!!</p>
+<div id="workshop-schedule" class="section level2">
+<h2><span class="header-section-number">1.1</span> Workshop Schedule</h2>
+<p>We will try to cover the following material in the course:</p>
+<ul>
+<li>Day1
+<ul>
+<li>9:30 - 10:30 am Introductions and a presentation of the basic concepts</li>
+<li>10:30 - 10:45 am Break</li>
+<li>10:45 - 12 pm Installations of the required packages and data download</li>
+<li>12 - 1 pm Lunch break</li>
+<li>1 - 3 pm Reading data in and inspecting read quality</li>
+</ul></li>
+<li>Day2
+<ul>
+<li>9:30 -10:30 am Filter and trim + learn error rates + Sample inference + Merge samples</li>
+<li>10:30 - 10:45 am Break</li>
+<li>10:45 - 12 Generate sequence table and remove Chimeras</li>
+<li>12 - 1 pm Lunch break</li>
+<li>1- 3 pm Taxomnomy explanation + assign your sequences. If time permits, make a phyloseq object</li>
+</ul></li>
+<li>Day3
+<ul>
+<li>9-10:30 am Using a phyloseq object to calculate alpha and beta diversity</li>
+<li>10:30 onwards we will use a real world dataset to re-do what we have learned here</li>
+</ul></li>
+</ul>
+</div>
+<div id="important-links" class="section level2">
+<h2><span class="header-section-number">1.2</span> Important links</h2>
+<ul>
+<li>DADA2 Tutorial : <a href="http://benjjneb.github.io/dada2/tutorial.html">link</a></li>
+<li>Day One presentaton : <a href="microbiomeworkshop.pptx">link</a></li>
+<li>Day One dataset : <a href="MiSeqSOPData.zip">link</a></li>
+</ul>
 
-<!--header start here -->
-<header class="header navbar fixed-top navbar-expand-md">
-    <div class="container">
-        <a class="navbar-brand logo" href="#">
-            <img src="assets/img/Logo_uc.jpg" alt="Evento"/>
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#headernav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="lnr lnr-text-align-right"></span>
-        </button>
-        <div class="collapse navbar-collapse flex-sm-row-reverse" id="headernav">
-            <ul class=" nav navbar-nav menu">
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link " href="#inst">Instructors</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link " href="precourse_assignment.html">Rcompetency</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link " href="16sanalysis_workshop/16sworkshop/_book/index.html">WorkshopNotes</a>
-                </li>
-                
-                <!-- <li class="nav-item">
-                    <a class="nav-link " href="#">News</a>
-                </li> -->
-                <li class="nav-item">
-                    <a class="nav-link " href="contact.html">Contact</a>
-                </li>
-                <!-- <li class="search_btn">
-                    <a  href="#">
-                       <i class="ion-ios-search"></i>
-                    </a>
-                </li> -->
-                <ul class="social_list">
+</div>
+</div>
+            </section>
 
-                    <li>
-                        <a href="https://github.com/WCMCBioinformatics"><i class="ion-social-github"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com/henaramay"><i class="ion-social-twitter"></i></a>
-                    </li>
-
-                </ul>
-            </ul>
+          </div>
         </div>
+      </div>
+
+<a href="day-one.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
-</header>
-<!--header end here-->
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"download": ["16sworkshop.pdf", "16sworkshop.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
 
-<!--cover section slider -->
-<section id="home" class="home-cover">
-    <div class="cover_slider owl-carousel owl-theme">
-        <div class="cover_item" style="background: url('https://imccalgary.ca/assets/3b5e6-hero_image.jpg');">
-             <div class="slider_content">
-                <div class="slider-content-inner">
-                    <div class="container">
-                        <div class="slider-content-center">
-                            <h2 class="cover-title">
-                              16s sequencing Analysis
-                            </h2>
-                            <strong class="cover-xl-text">Workshop</strong>
-                            <p class="cover-date">
-                                7-9 October 2019  - Calgary, Alberta.
-                            </p>
-                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfdTxYlmmjRdnqkyrNdtH8Skn-Q0vRvU9MKSl2oMUDeeDCdfg/viewform" class=" btn btn-primary btn-rounded" >
-                                Register Now
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- <div class="cover_item" style="background: url('assests/img/calgary.jpg');">
-            <div class="slider_content">
-                <div class="slider-content-inner">
-                    <div class="container">
-                        <div class="slider-content-left">
-                            <h2 class="cover-title">
-                                Prepare yourself for the
-                            </h2>
-                            <strong class="cover-xl-text">conference</strong>
-                            <p class="cover-date">
-                                12-14 February 2018  - Los Angeles, CA.
-                            </p>
-                            <a href="#" class=" btn btn-primary btn-rounded" >
-                                Buy Tickets Now
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-        <!-- <div class="cover_item" style="background: url('assets/img/bg/slider.png');">
-            <div class="slider_content">
-                <div class="slider-content-inner">
-                    <div class="container">
-                        <div class="slider-content-center">
-                            <h2 class="cover-title">
-                                Prepare yourself for the
-                            </h2>
-                            <strong class="cover-xl-text">conference</strong>
-                            <p class="cover-date">
-                                7-9 October 2019  - University
-                            </p>
-                            <a href="#" class=" btn btn-primary btn-rounded" >
-                                Buy Tickets Now
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="cover_nav">
-        <ul class="cover_dots">
-            <li class="active" data="0"><span>1</span></li>
-            <li  data="1"><span></span></li>
-        </ul>
-    </div> -->
-</section>
-<!--cover section slider end -->
-
-<!--event info -->
-<section class="pt10 pb10">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-6 col-md-3  ">
-                <div class="icon_box_two">
-                    <i class="ion-ios-calendar-outline"></i>
-                    <div class="content">
-                        <h5 class="box_title">
-                            DATE
-                        </h5>
-                        <p>
-                            7-9 October 2019
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-6 col-md-3  ">
-                <div class="icon_box_two">
-                    <i class="ion-ios-location-outline"></i>
-                    <div class="content">
-                        <h5 class="box_title">
-                            location
-                        </h5>
-                        <p>
-                            Foothills Campus, University of Calgary, Calgary AB.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-6 col-md-3  ">
-                <div class="icon_box_two">
-                    <i class="ion-ios-person-outline"></i>
-                    <div class="content">
-                        <h5  class="box_title">
-                            Instructors
-                        </h5>
-                        <p>
-                            Dr. Hena R. Ramay &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
-                            Dr. Alana Schick
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-6 col-md-3  ">
-                <div class="icon_box_two">
-                    <i class="ion-ios-pricetag-outline"></i>
-                    <div class="content">
-                        <h5 class="box_title">
-                            Fees
-                        </h5>
-                        <p>
-                          $250
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--event info end -->
-
-
-<!--event countdown -->
-<!-- <section class="bg-img pt70 pb70" style="background-image: url('https://imccalgary.ca/assets/29a0a-featured-platforms-background.jpg');">
-    <div class="overlay_dark"></div>
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-12 col-md-10">
-                <h4 class="mb30 text-center color-light">Counter until the big event</h4>
-                <div class="countdown"></div>
-            </div>
-        </div>
-    </div>
-</section> -->
-<!--event count down end-->
-
-
-<!--about the event -->
-<section class="pt10 pb10">
-    <div class="container">
-        <div class="section_title">
-            <h3 class="title">
-                About the Workshop
-            </h3>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-12 col-md-6">
-                <p>
-                  This is a three day intensive workshop to provide attendees hands on experience on doing 16s rRNA sequencing analysis using R. While majority of teaching will be in R, we will also discuss best practices, study design and teach basics of unix tools needed to start an analysis from raw fastq files
-. </p>
-<p>A rough overview of the topics covered is as follows: </p>
-<li>
-How to design such an experiments </li>
-<li>Basic read quality checks</li>
-<li>Primer removal</li>
-<li>Walk through the DADA2 pipeline</li>
-<li>Options for taxonomic assignment</li>
-<li>Using Phyloseq package to do conduct downstream analysis</li>
-<li>Plotting community compositions, Alpha and Beta diversity</li>
-<li>If time permits, basics for differential abundance analysis</li>
-
-
-
-            </div>
-        </div>
-
-        <!--event features-->
-        <div class="row justify-content-center mt30">
-            <div class="col-12 col-md-6 col-lg-3">
-                <div class="icon_box_one">
-                    <i class="lnr lnr-user"></i>
-                    <div class="content">
-                        <h4 id ="inst"> Instructors</h4>
-                        <p>
-                            Dr. Hena R. Ramay and Dr. Alana Schick, both  are experienced bioinformaticians at the International Microbiome Centre.
-                        </p>
-                        <!-- <a href="#">read more</a> -->
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-6 col-lg-3">
-                <div class="icon_box_one">
-                    <i class="lnr lnr-laptop"></i>
-                    <div class="content">
-                        <h4>Workshop</h4>
-                        <p>
-                            You will have 3 days of hands on experience with a test dataset. Starting from raw read files, we will walk through each step one by one.
-                        </p>
-                        <!-- <a href="#">read more</a> -->
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-6 col-lg-3">
-                <div class="icon_box_one">
-                    <i class="lnr lnr-list"></i>
-                    <div class="content">
-                        <h4>Prerequisites </h4>
-                        <p>
-                            Ability to do basic R programming is required to take this course. If you don't have R experience, please take our <a href="https://alanaschick.github.io/Rbootcamp2019/index.html">Rbootcamp course </a> offered in August 2019.
-                        </p>
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-6 col-lg-3">
-                <div class="icon_box_one">
-                    <i class="lnr lnr-clock"></i>
-                    <div class="content">
-                        <h4>Registeration</h4>
-                        <p>
-                            The fee for this course is 250 CAD. We have limited spaces, so please register as soon as you can. To register, please fill this <a href="https://docs.google.com/forms/d/e/1FAIpQLSfdTxYlmmjRdnqkyrNdtH8Skn-Q0vRvU9MKSl2oMUDeeDCdfg/viewform"> form.
-                        </p>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--event features end-->
-    </div>
-</section>
-<!--about the event end -->
-
-
-<!-- jquery -->
-<script src="assets/js/jquery.min.js"></script>
-<!-- bootstrap -->
-<script src="assets/js/popper.js"></script>
-<script src="assets/js/bootstrap.min.js"></script>
-<script src="assets/js/waypoints.min.js"></script>
-<!--slick carousel -->
-<script src="assets/js/owl.carousel.min.js"></script>
-<!--parallax -->
-<script src="assets/js/parallax.min.js"></script>
-<!--Counter up -->
-<script src="assets/js/jquery.counterup.min.js"></script>
-<!--Counter down -->
-<script src="assets/js/jquery.countdown.min.js"></script>
-<!-- WOW JS -->
-<script src="assets/js/wow.min.js"></script>
-<!-- Custom js -->
-<script src="assets/js/main.js"></script>
 </body>
+
 </html>
