@@ -1,0 +1,58 @@
+# Day One
+
+## Introduction
+
+
+## Spreadsheets
+
+- Implement best practices in data table formatting.
+- Identify and address common formatting mistakes.
+  
+<!-- <p><font color="Tomato">"If you torture the data long enough, it will confess."- Ronald Coase, Economist </p></font> -->
+
+## Installing R packages
+ 
+- Understand what an R package is and how to install and load them.
+- Install the tidyverse and ggplot2 packages.
+
+## R Basics 
+
+- Assign values to objects in R. 
+- Learn how to name objects. 
+- Use comments to inform script.
+- Solve simple arithmetic operations in R. 
+- Call functions and use arguments to change their default options.
+- Inspect the content of vectors and manipulate their content.
+- Subset and extract values from vectors. 
+- Analyze vectors with missing data.
+
+## Starting with data
+
+- Load externa data into R with `read.csv()` function.
+- Describe what an R data frame is.
+- Learn the properties of a factor and how to reorder them.
+- Subset values from data frames.
+
+## Conditional statements and loops
+
+- Write an if…else statement.
+- Write a for loop to modify a data frame.
+
+## Manipulating data in the tidyverse
+
+- Describe what a tibble is and how it differs from a data frame.
+- Describe what the tidyr package in R is used for.
+- Apply commonn tidyr functions to tidy data in R.
+- Describe what the dplyr package in R is used for.
+- Apply common dplyr functions to manipulate data in R.
+- Employ the ‘pipe’ operator to link together a sequence of functions.
+- Employ the ‘split-apply-combine’ concept to split the data into groups, apply analysis to each group, and combine the results.
+
+## Data visualization with ggplot2
+
+- Produce scatterplots, barplots, histograms, and boxplots using ggplot2.
+- Describe what faceting is and apply faceting in ggplot.
+- Modify the aesthetics of an existing ggplot plot (including axis labels and color).
+- Build customized plots from data in a data frame.
+- Be wowed by the power of R and compelled to keep using it after this workshop.
+
