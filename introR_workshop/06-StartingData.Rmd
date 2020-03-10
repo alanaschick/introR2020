@@ -111,7 +111,7 @@ What information does each of these functions tell you?
 ### Saving or "writing" a data frame {-}
 We can save a data frame to a csv file using the `write.csv()` function. For example, to save the BMI data to bmi.csv:
 ```{r}
-write.csv(BMI, file = "data/bmi.csv")
+write.csv(BMI, file = "bmi.csv")
 ```
 
 Ensure that you have successfully saved this csv file, then feel free to delete it.

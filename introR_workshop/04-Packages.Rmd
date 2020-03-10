@@ -37,12 +37,12 @@ There are three ways to install an R package from CRAN. For example, to install 
 1. **Easy way**: In the Files pane of RStudio:
     a. Click on the `Packages` tab
     b. Click on `Install`
-    c. Type the name of the package under “Packages (separate multiple with space or comma):” In this case, type `tidyverese`
+    c. Type the name of the package under “Packages (separate multiple with space or comma):” In this case, type `tidyverse`
     d. Click `Install`
     
 2. **Easy way**: In the menu bar of RStudio:
     a. Click on `Tools` and `Install Packages...`
-    b. Type the name of the package under “Packages (separate multiple with space or comma):” In this case, type `tidyverese`
+    b. Type the name of the package under “Packages (separate multiple with space or comma):” In this case, type `tidyverse`
     c. Click `Install` 
     
 3. **Slightly harder way**: An alternative way to install a package is by typing `install.packages("tidyverse")` in the Console pane of RStudio and hitting enter. Note you must include the quotation marks.    

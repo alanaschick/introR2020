@@ -6,7 +6,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## R and the RStudio IDE
 
-Short presentation introducing R and the RStudio IDE. Attempting to convince you how amazing R is. Slides will be uploaded here. 
+Short presentation introducing R and the RStudio IDE. Attempting to convince you how amazing R is. Slides will be uploaded [here](intro.pdf). 
 
 ## Why learn R
 
