@@ -1,6 +1,6 @@
 # Manipulating Data in the tidyverse
 
-```{r setup, include=FALSE}
+```{r, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
 metadata <- read.csv("data/Ecoli_metadata.csv")
